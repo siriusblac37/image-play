@@ -6,7 +6,7 @@ class DataManager:
 	def getMovieNamesOneByOne(self):
 		if self.fp is None:
 			try:
-				self.fp = open('../dataset/ml-100k/u.info')
+				self.fp = open('../dataset/ml-100k/u.item')
 			except IOError:
 				return None
 		try:
